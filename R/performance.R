@@ -57,7 +57,7 @@ calc_kappa <- function(obs, preds){
 #' each method’s bias, accuracy, and ability to correctly rank or correlate
 #' across populations. We measured bias as the median proportional error (MPE)
 #' and accuracy as the median absolute proportional error (MAPE). Proportional
-#' error is calculated as (θest-θ)/|θ|, where θest and θ represent predicted
+#' error is calculated as (Thetaest-Theta)/|Theta|, where Thetaest and Theta represent predicted
 #' and “true” (or data-rich stock assessment) B/BMSY values. The ability to
 #' correctly rank populations is measured as Spearman’s rank-order correlation
 #' between predicted and “true” values.
